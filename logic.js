@@ -399,9 +399,9 @@ document.addEventListener('touchend', (e) => {
 
 	if(hasLost() == true){
 		setTimeout(() => {
-			 alert("TALOOOOOOOOO!!!! HAHAHAHAHAHAHAHAHA");
-			restartGame();
+			alert("TALOOOOOOOOO!!!! HAHAHAHAHAHAHAHAHA");
 			alert("Click any arrow key to restart")
+			restartGame();
 		}, 100);
 	}
 
